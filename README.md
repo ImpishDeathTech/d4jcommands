@@ -11,17 +11,19 @@ import discord4j.core.DiscordClientBuilder;
 import discord4j.core.GatewayDiscordClient;
 
 
-public class Bot extends Listener {
+public class Bot extends Listener {    
     static {
+        // link up commands in here
         commands.put("ping", event -> event.getMessage()
                 .getChannel()
-                .flatMap(channel -> channel.createMessage("Pong! ^,..,^"))
+                .flatMap(channel -> channel.createMessage(pingPong()))
                 .then());
     }
 
     static public void main(String[] args) {
         System.out.println("[ INFO] (main) Building Discord Client...");
-        final GatewayDiscordClient client = DiscordClientBuilder.create(TOKEN)
+        
+        final GatewayDiscordClient client = DiscordClientBuilder.create(args[1])
                 .build()
                 .login()
                 .block();
@@ -31,6 +33,10 @@ public class Bot extends Listener {
 
         System.out.println("[ INFO] (main) Awaiting command...");
         client.onDisconnect().block();
+    }
+    
+    static public String pingPong() {
+        return "```Pong! ^,..,^```";
     }
 }
 ```
