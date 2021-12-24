@@ -1,5 +1,5 @@
 /*
-    Copyright Christopher Stephen Rafuse <ImpishDeathTech@protonmail.ch>
+    Copyright (c) Christopher Stephen Rafuse <ImpishDeathTech@protonmail.ch>
     BSD-3-Clause
 */
 
