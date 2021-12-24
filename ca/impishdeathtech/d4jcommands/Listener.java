@@ -1,4 +1,9 @@
-package ca.impishdeathtech.AeonSystem.commands;
+/*
+    Copyright Christopher Stephen Rafuse <ImpishDeathTech@protonmail.ch>
+    BSD-3-Clause
+*/
+
+package ca.impishdeathtech.d4jcommands;
 
 import discord4j.core.GatewayDiscordClient;
 import discord4j.core.event.domain.lifecycle.ReadyEvent;
