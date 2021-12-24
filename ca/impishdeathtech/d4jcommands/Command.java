@@ -2,7 +2,7 @@
   haven't really done much to this
 */
 
-package d4jcommands;
+package ca.impishdeathtech.d4jcommands;
 
 import discord4j.core.event.domain.message.MessageCreateEvent;
 import reactor.core.publisher.Mono;
