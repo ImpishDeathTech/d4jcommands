@@ -1,5 +1,6 @@
 # d4jcommands
-a javapackage to be included in a discord4j project for people who are lazy or prototyping and want a quickstart
+## a javapackage to be included in a discord4j project for people who are lazy or prototyping and want a quickstart
+### by Fluffykins Allmighty, IDT
 
 # Basic Example Bot.java
 ```java
