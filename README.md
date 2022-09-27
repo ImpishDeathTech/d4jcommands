@@ -1,7 +1,8 @@
 # d4jcommands
 ## a javapackage to be included in a discord4j project for people who are lazy or prototyping and want a quickstart
 ### by Fluffykins Allmighty, IDT
-
+note: due to the recent changes involving the forceful use of slash commands and lack of availability of message content for unverified bots, 
+      this package is no longer reccomended for use unless your bot has been verified. I'm so sorry.
 # Basic Example Bot.java
 ```java
 package ca.impishdeathtech.bot;
